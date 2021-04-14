@@ -2,13 +2,12 @@ console.log('hello');
 
 console.log('Welcome to my Page');
 
-
-
 alert('Welcome To My Movie Page ' )
 
 
 var userName = prompt("please enter your name");
 
+var userAge= prompt ("Please enter you age");
 
 var timeNow = prompt("please enter the time now");
 
@@ -29,6 +28,3 @@ if (timeNow >= 18) {
   );
 }
 
-
-
-  
