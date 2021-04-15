@@ -30,8 +30,9 @@ if (timeNow >= 18) {
 
 if (userAge >= 15 && userAge <= 30) {
   document.write('You can see the wabpage, Welcome');
-} else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry'); } else {
-  alert('Please enter your age as number');
+} else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry'); } else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry');}
+else{
+  alert('Please enter your age as a number');
 }
 
 var smurfsName = prompt("Hello enter your vaf char name from smurfs movie!");
