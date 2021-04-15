@@ -2,12 +2,12 @@ console.log('hello');
 
 console.log('Welcome to my Page');
 
-alert('Welcome To My Movie Page ' )
+alert('Welcome To My Movie Page ')
 
 
-var userName = prompt("please enter your name");
+var userName = prompt("Please enter your name");
 
-var userAge= prompt ("Please enter you age");
+var userAge = prompt("Please enter you age");
 
 var timeNow = prompt("please enter the time now");
 
@@ -28,3 +28,34 @@ if (timeNow >= 18) {
   );
 }
 
+if (userAge >= 15 && userAge <= 30) {
+  document.write('You can see the wabpage, Welcome');
+} else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry'); } else {
+  alert('Please enter your age as number');
+}
+
+var smurfsName = prompt("Hello enter your vaf char name from smurfs movie!");
+
+while(smurfsName !== "smurfette" && smurfsName !== "brainy" && smurfsName !== "papa" && smurfsName !== "baby" && smurfsName !== "harmony" && smurfsName !== "hefty"){ smurfsName = prompt("Please enter the name smurfette or brainy or papa or baby or harmony or hefty");
+}
+
+var userChoose;
+
+if (smurfsName === "smurfette") { userChoose = "<img src='https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2017/07/smurfette-wont-be-labeled-071117.jpg'>";
+} else if (smurfsName === "brainy") {
+  userChoose = '<img src="https://images-na.ssl-images-amazon.com/images/I/71ya05Ti%2BCL._AC_SX425_.jpg">';
+} else if (smurfsName === "papa") {
+  userChoose = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIi_2_s3jzZOLefFysWWXYdZJUe6DnXHDpA&usqp=CAU">';
+} else if (smurfsName === 'harmony') {
+  userChoose = '<img src="https://pbs.twimg.com/profile_images/432990870300667904/qZ9GKxdU_400x400.jpeg">';
+} else if (smurfsName === 'baby') {
+  userChoose = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDt2Yn7ET7EkGRf8xPvJB8G9hyv5XfVikj4g&usqp=CAU">';
+} else if (smurfsName === 'hefty') {
+  userChoose = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWS1KouCmVjWRzsOaWdvc8WvaNNKpfmGTgJA&usqp=CAU">';
+}
+
+var imagesNumber = prompt('How many image do you want ?');
+
+for (var i = 0; i < imagesNumber; i++) {
+  document.write(userChoose);
+}
