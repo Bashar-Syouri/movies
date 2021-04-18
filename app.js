@@ -29,8 +29,8 @@ if (timeNow >= 18) {
 }
 
 if (userAge >= 15 && userAge <= 30) {
-  document.write('You can see the wabpage, Welcome');
-} else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry'); } else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wabpage, So Sorry');}
+  document.write('You can see the web page, Welcome');
+} else if (userAge < 15 || userAge > 30) { document.write('You cannot see my wwb page, So Sorry'); } else if (userAge < 15 || userAge > 30) { document.write('You cannot see my web page, So Sorry');}
 else{
   alert('Please enter your age as a number');
 }
