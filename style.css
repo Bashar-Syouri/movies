@@ -1,5 +1,6 @@
 nav ul li {
   background-color: #CFCFF5;
+  display: inline;
 }
 
 footer{
@@ -15,4 +16,14 @@ h1{
 body img{
   width:25%;
   opacity: 1;
+}
+
+nav ul li a{
+ text-decoration:none;
+ margin: 30px;
+ padding :20px;
+ }
+
+#pi {
+  background-color: #542e71;
 }
